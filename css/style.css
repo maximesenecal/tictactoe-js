@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+/***********************************************/
+/****************** GENERAL ********************/
+/***********************************************/
+body{
+	color:#000;
+	font-family:Arial;
+	font-size:12px;
+	height: 100%;
+	margin:0;
+	margin:0; 
+	overflow:hidden;
+}
+button{
+	border : 1px solid #FFFFFF;
+	background-color: #999;
+	color: #FFF;
+	font-weight: bold;
+	padding : 3px 10px 3px 10px;
+	border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+html{
+	 height: 100%; 
+}
+input{
+	border:0;
+	text-align:center;
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+p{
+	margin:0;
+}
+
+/******************************************/
+/****************** ID ********************/
+/******************************************/
+#background{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+#container{
+	position:relative;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	z-index:4;
+	height:100%;
+	margin-top:-150px;
+	padding-top:150px;
+}
+#contents_croix{
+	margin-right:20px;
+	border:15px solid #ffd3d3;
+}
+#contents_ronds{
+	margin-left:20px;
+	border:15px solid #b7d7ff;
+}
+#tictactoe{
+	margin-top:150px;
+	background:#CCC;
+	border:15px solid #CCC;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	margin-left:auto;
+	margin-right:auto;
+	width:210px;
+	float:left;
+}
+#victoire{
+	color:#FFFFFF;
+	font-size:30px;
+	text-align:center;
+	height:36px;
+	padding:10px; 
+}
+
+#score1,#score2{
+	color : #cccccc;
+	font-size: 30px;
+}
+
+/**********************************************/
+/****************** CLASSE ********************/
+/**********************************************/
+.background_normal{
+	background:#f1f1f1;
+}
+.background_croix{
+	background:no-repeat url('../img/victoire_croix.png') center top #ff0000;
+}
+.background_ronds{
+	background:no-repeat url('../img/victoire_ronds.png') center top #4288de;
+}
+.case{
+	height: 90px;
+	width : 90px;
+	background-color: #F2F2F2;
+	border: 1px solid #F2F2F2;
+	border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	color : #CCC;
+	cursor : pointer;
+	padding : 10px;
+}
+.case:hover{
+	background-color : #595959;
+}
+.case_croix{
+	background:no-repeat url('../img/croix.png') center;
+}
+.case_ronds{
+	background:no-repeat url('../img/ronds.png') center;
+}
+.clear{
+	clear:both;
+}
+.contents_side{
+	margin-top : 150px;
+	height: 350px;
+	width: 254px;
+	color : #F2F2F2;
+	border: 15px solid #B7D7FF;
+	border-radius: 15px;
+	-o-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	background-color: #F2F2F2;
+	text-align: center;
+	text-transform :lowercase;
+	float : left; 
+}
+.contents_side ul li{
+	padding:10px;
+	color:#CCC;
+}
+.text1{
+	font-size:48px;
+	text-align:center;
+	font-variant:small-caps;
+}
+.titre1{
+	font-size:14px;
+}
+
+
+
